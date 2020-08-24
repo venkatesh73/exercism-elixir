@@ -7,13 +7,13 @@ defmodule RnaTranscription do
   iex> RnaTranscription.to_rna('ACTG')
   'UGAC'
   """
-  @dna_to_rna %{"A" => 'U', "C" => 'G', "G" => 'C', "T" => 'A'}
+  @dna_to_rna %{?A => ?U, ?C => ?G, ?G => ?C, ?T => ?A}
 
   @spec to_rna([char]) :: [char]
   def to_rna(dna) do
-    dna
-    |> Enum.reduce('', fn dna, result ->
-      result ++ @dna_to_rna[<<dna>>]
+    Enum.reduce(dna, [], fn dna, result ->
+      [@dna_to_rna[dna] | result]
     end)
+    |> Enum.reverse()
   end
 end

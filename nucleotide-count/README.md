@@ -1,18 +1,16 @@
-# Hello World
+# Nucleotide Count
 
-The classical introductory exercise. Just say "Hello, World!".
+Given a single stranded DNA string, compute how many times each nucleotide occurs in the string.
 
-["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is
-the traditional first program for beginning programming in a new language
-or environment.
+The genetic language of every living thing on the planet is DNA.
+DNA is a large molecule that is built from an extremely long sequence of individual elements called nucleotides.
+4 types exist in DNA and these differ only slightly and can be represented as the following symbols: 'A' for adenine, 'C' for cytosine, 'G' for guanine, and 'T' thymine.
 
-The objectives are simple:
-
-- Write a function that returns the string "Hello, World!".
-- Run the test suite and make sure that it succeeds.
-- Submit your solution and check it at the website.
-
-If everything goes well, you will be ready to fetch your first real exercise.
+Here is an analogy:
+- twigs are to birds nests as
+- nucleotides are to DNA as
+- legos are to lego houses as
+- words are to sentences as...
 
 ## Running tests
 
@@ -51,7 +49,7 @@ out there where answers might be found.
 
 ## Source
 
-This is an exercise to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+The Calculating DNA Nucleotides_problem at Rosalind [http://rosalind.info/problems/dna/](http://rosalind.info/problems/dna/)
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
